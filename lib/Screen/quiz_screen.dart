@@ -210,7 +210,6 @@ class _QuizScreenState extends State<QuizScreen> {
                                   if (correctAnswers == optionList[index]) {
                                     optionColor[index] = Colors.green;
                                     correctAnswer++;
-                                    // gotoNextQuestion();
                                   } else {
                                     optionColor[index] = Colors.red;
                                     incorrectAnswer++;
